@@ -34,6 +34,9 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 
 ## **Pipeline**
 
+
+
+
 ## Análisis de los datos
 
 ## Tecnologias utilizadas
