@@ -2,13 +2,13 @@
 
 ### **Material brindado x Henry para completar el trabajo:**
 
-1. **[KICK OFF PROYECTO FINAL SLIDES]([https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509))**
-2. [GITHUB POROYECTO FINAL]([https://github.com/soyHenry/PF_DS/blob/FULL-TIME/README.md](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/README.md))
+1. **[KICK OFF PROYECTO FINAL SLIDES](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509)**
+2. [GITHUB PROYECTO FINAL](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/README.md)
 3. **[PROYECTO 1  YELP &amp; GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS]([https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md))**
    1. [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
    2. [Dataset Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA?usp=share_link)
    3. [Dataset Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing)
-4. [Hitos del proyecto]([https://docs.google.com/document/d/e/2PACX-1vRtTsN_N3Z0DTLbh_-Xw2OxhOWeV5jmTISRUNzTBpWM9mTnxsT03674UheR4f0hfULc2v4_sW3IgDTv/pub](https://docs.google.com/document/d/e/2PACX-1vRtTsN_N3Z0DTLbh_-Xw2OxhOWeV5jmTISRUNzTBpWM9mTnxsT03674UheR4f0hfULc2v4_sW3IgDTv/pub)) Documento donde se detallan las particularidades generales del proyecto que van a tener que realizar. Su lectura es de carácter obligatorio.
+4. [Hitos y generalidades ](https://docs.google.com/document/d/e/2PACX-1vRtTsN_N3Z0DTLbh_-Xw2OxhOWeV5jmTISRUNzTBpWM9mTnxsT03674UheR4f0hfULc2v4_sW3IgDTv/pub) Documento donde se detallan las particularidades generales del proyecto que van a tener que realizar. Su lectura es de carácter obligatorio.
 5. **✅Dailies: 12 reuniones. 80% de asistencia para aprobar. (10 asistencias obligatorias)**
 6. **✅Demos: 3 reuniones. 100% de asistencia para aprobar.**
 7. ![1718301280173](image/0MENUEQUIPO/1718301280173.png)

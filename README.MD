@@ -1,4 +1,4 @@
-![1718218042027](image/README/1718218042027.png)
+![HenryMoon](https://blog.soyhenry.com/content/images/size/w2000/2022/01/Currcula-Henry.png)
 
 # Proyecto Grupal "YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS
 
@@ -34,13 +34,8 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 
 ## **Pipeline**
 
-
-
-
 ## Análisis de los datos
 
 ## Tecnologias utilizadas
-
-
 
 ## Equipo involucrado
