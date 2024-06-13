@@ -2,20 +2,20 @@
 
 ### **Material brindado x Henry para completar el trabajo:**
 
-1. **[KICK OFF PROYECTO FINAL SLIDES](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509)**
+1. [KICK OFF PROYECTO FINAL SLIDES](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509)
 2. [GITHUB PROYECTO FINAL](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/README.md)
-3. **[PROYECTO 1  YELP &amp; GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS]([https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md))**
-   1. [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
-   2. [Dataset Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA?usp=share_link)
-   3. [Dataset Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing)
-4. [Hitos y generalidades ](https://docs.google.com/document/d/e/2PACX-1vRtTsN_N3Z0DTLbh_-Xw2OxhOWeV5jmTISRUNzTBpWM9mTnxsT03674UheR4f0hfULc2v4_sW3IgDTv/pub) Documento donde se detallan las particularidades generales del proyecto que van a tener que realizar. Su lectura es de carácter obligatorio.
-5. **✅Dailies: 12 reuniones. 80% de asistencia para aprobar. (10 asistencias obligatorias)**
-6. **✅Demos: 3 reuniones. 100% de asistencia para aprobar.**
-7. ![1718301280173](image/0MENUEQUIPO/1718301280173.png)
-8. Prepárate para el comenzar 💯 Serán agregados a un canal de Slack de su grupo conjuntamente con su mentor. Organícense para comenzar las dailies con todo
+3. **[PROYECTO 1  YELP GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md)**
+4. [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
+5. 1. [Dataset Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA?usp=share_link)
+   2. [Dataset Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing)
+6. [Hitos y generalidades ](https://docs.google.com/document/d/e/2PACX-1vRtTsN_N3Z0DTLbh_-Xw2OxhOWeV5jmTISRUNzTBpWM9mTnxsT03674UheR4f0hfULc2v4_sW3IgDTv/pub) detallen las particularidades generales del proyecto que van a tener que realizar. Su lectura es de carácter obligatorio.
+7. **✅Dailies: 12 reuniones. 80% de asistencia para aprobar. (10 asistencias obligatorias o desaprobas)**
+8. **✅Demos: 3 reuniones. 100% de asistencia para aprobar.**
+9. ![1718301280173](image/0MENUEQUIPO/1718301280173.png)
+10. Prepárate para el comenzar 💯 Serán agregados a un canal de Slack de su grupo conjuntamente con su mentor. Organícense para comenzar las dailies con todo
+11. [📅 Nuestro diagrama de Gantt](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing) [📅 ](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing)
 
 ---
-
 
 
 #### 🏁 Sprint 1: Puesta en marcha del proyecto 🏁
@@ -24,10 +24,6 @@
 * [ ] **VIERNES DEMO 1: Se presenta lo trabajado en cada Sprint al Product Owner**
 
 ![1718300695228](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/El%20Bauto/Desktop/HENRY%20PROYECTO%20FINAL/image/0MENUEQUIPO/1718300695228.png)
-
-### [📅 Nuestro diagrama de Gantt](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing) [📅 ](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing)
-
----
 
 #### 🏁 Sprint 2: Etapa de analytics y ML 🏁
 
