@@ -13,31 +13,26 @@
 8. **✅Demos: 3 reuniones. 100% de asistencia para aprobar.**
 9. ![1718301280173](image/0MENUEQUIPO/1718301280173.png)
 10. Prepárate para el comenzar 💯 Serán agregados a un canal de Slack de su grupo conjuntamente con su mentor. Organícense para comenzar las dailies con todo
-11. [📅 Nuestro diagrama de Gantt](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing) [📅 ](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing)
+11. 
 
 ---
 
+# [📅 Nuestro diagrama de Gantt](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing) [📅 ](https://docs.google.com/spreadsheets/d/1SZAHRo0SPZk-DMIDneAckuduytsxMNGso4SlHRwaY8U/edit?usp=sharing)
 
 #### 🏁 Sprint 1: Puesta en marcha del proyecto 🏁
 
 * [ ] Lunes a Jueves Daily Meet
 * [ ] **VIERNES DEMO 1: Se presenta lo trabajado en cada Sprint al Product Owner**
 
-![1718300695228](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/El%20Bauto/Desktop/HENRY%20PROYECTO%20FINAL/image/0MENUEQUIPO/1718300695228.png)
-
 #### 🏁 Sprint 2: Etapa de analytics y ML 🏁
 
 * [ ] Lunes a Jueves Daily Meet
 * [ ] **VIERNES DEMO 1: Se presenta lo trabajado en cada Sprint al Product Owner**
 
-  ![1718300993518](image/0MENUEQUIPO/1718300993518.png)
-
 #### 🏁 Sprint 3: Demo Final 🏁
 
 * [ ] Lunes a Jueves Daily Meet
 * [ ] **VIERNES DEMO 1: Se presenta lo trabajado en cada Sprint al Product Owner**
-
-![1718301012914](image/0MENUEQUIPO/1718301012914.png)
 
 ---
 
