@@ -258,7 +258,6 @@
 🛠️  **Herramientas de Análisis** :
 
 * **Python** : Librerías como Pandas, NumPy, Scikit-learn, NLTK, SpaCy.
-* **R** : Librerías como dplyr, ggplot2, caret, tm (text mining).
 * **SQL** : Para consultas y gestión de bases de datos.
 
 📊  **Visualización de Datos** :

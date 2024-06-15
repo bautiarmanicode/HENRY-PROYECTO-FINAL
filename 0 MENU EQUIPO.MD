@@ -2,18 +2,18 @@
 
 ### **Material brindado x Henry para completar el trabajo:**
 
-1. [KICK OFF PROYECTO FINAL SLIDES](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509)
-2. [GITHUB PROYECTO FINAL](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/README.md)
-3. **[PROYECTO 1  YELP GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md)**
-4. [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
-5. 1. [Dataset Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA?usp=share_link)
-   2. [Dataset Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing)
-6. [Hitos y generalidades ](https://docs.google.com/document/d/e/2PACX-1vRtTsN_N3Z0DTLbh_-Xw2OxhOWeV5jmTISRUNzTBpWM9mTnxsT03674UheR4f0hfULc2v4_sW3IgDTv/pub) detallen las particularidades generales del proyecto que van a tener que realizar. Su lectura es de carácter obligatorio.
-7. **✅Dailies: 12 reuniones. 80% de asistencia para aprobar. (10 asistencias obligatorias o desaprobas)**
-8. **✅Demos: 3 reuniones. 100% de asistencia para aprobar.**
-9. ![1718301280173](image/0MENUEQUIPO/1718301280173.png)
-10. Prepárate para el comenzar 💯 Serán agregados a un canal de Slack de su grupo conjuntamente con su mentor. Organícense para comenzar las dailies con todo
-11. 
+* [KICK OFF PROYECTO FINAL SLIDES](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509)
+* [GITHUB PROYECTO FINAL](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/README.md)
+* **[PROYECTO 1  YELP GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS](https://github.com/soyHenry/PF_DS/blob/FULL-TIME/Proyectos/yelp-goople.md)**
+* [Diccionario de datos](https://docs.google.com/document/d/1ASLMGAgrviicATaP1UJlflpmBCXtuSTHQGWdQMN6_2I/edit)
+* 1. [Dataset Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA?usp=share_link)
+  2. [Dataset Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing)
+* [Hitos y generalidades ](https://docs.google.com/document/d/e/2PACX-1vRtTsN_N3Z0DTLbh_-Xw2OxhOWeV5jmTISRUNzTBpWM9mTnxsT03674UheR4f0hfULc2v4_sW3IgDTv/pub) detallen las particularidades generales del proyecto que van a tener que realizar. Su lectura es de carácter obligatorio.
+* **✅Dailies: 12 reuniones. 80% de asistencia para aprobar. (10 asistencias obligatorias o desaprobas)**
+* **✅Demos: 3 reuniones. 100% de asistencia para aprobar.**
+* ![1718301280173](image/0MENUEQUIPO/1718301280173.png)
+* Prepárate para el comenzar 💯 Serán agregados a un canal de Slack de su grupo conjuntamente con su mentor. Organícense para comenzar las dailies con todo
+* 
 
 ---
 
@@ -57,9 +57,10 @@ Votación interna de la cohorte, los 3videos más votados, van a poder mostrarlo
 
 ---
 
-# EVALUACION
-
 * [Rúbrica PO_Estudiantes](https://docs.google.com/document/d/1tBuh1LSCmvQB5Wd7-Cj4jj_o5zLk8vtBQFtDhF8oeSY/edit) : criterios que utilizarán los Product Owners para evaluar el desempeño del grupo demo a demo y proyectos.
+
+# Rúbrica de Evaluación
+
 * **✅Dailies: 12 reuniones. 80% de asistencia para aprobar. (10 asistencias obligatorias)**
 * **✅Demos: 3 reuniones. 100% de asistencia para aprobar.**
   * De estas demos surgen las evaluaciones tanto del desempeño individual como el grupal, promediando notas de Mentor y PO.
