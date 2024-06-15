@@ -1,5 +1,6 @@
 # Recursos y organizacion
 
+
 ### **Material brindado x Henry para completar el trabajo:**
 
 * [KICK OFF PROYECTO FINAL SLIDES](https://docs.google.com/presentation/d/17WLH3D5cgEbNA3XIKYKMEi20Q9pbo6kOXmD74nRhQaI/edit#slide=id.g1f3119b515c_0_509)
