@@ -1,12 +1,30 @@
-![HenryMoon](https://blog.soyhenry.com/content/images/size/w2000/2022/01/Currcula-Henry.png)
+![1718524062057](image/README/1718524062057.png)
 
-# Proyecto Grupal "YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS
+## Proyecto YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS
 
-## **Descripción del proyecto**
+![1718594640848](image/README/1718594640848.png)
 
-## Objetivo general
+.........
+
+.
+
+.
+
+.
+
+.
+
+### INDICE DEL PROYECTO
+
+.
+
+## Objetivo y alcance del proyecto:
+
+.
 
 ## Descripción del conjunto de datos
+
+.
 
 ## Plan de trabajo
 
@@ -16,7 +34,12 @@ Primero creamos un diagrama de Gantt donde se indica el responsable de cada tare
 
 Si una tarea está a cargo de más de una persona, el color de la barra cambia. La longitud y la posición de la barra indican el período de tiempo asignado para esa tarea.
 
-### 🏁 Sprint 1: Puesta en marcha del proyecto 🏁
+## Stack Tecnológico
+
+- FOTO GENERAL
+- Descripcion
+
+## 🏁 Sprint 1: Puesta en marcha del proyecto 🏁
 
 Como se puede observar, el primer sprint se enfocó principalmente en iniciar el proyecto y realizar un análisis preliminar de los datos y las tecnologías a emplear.
 
@@ -28,7 +51,6 @@ En el segundo sprint, los roles serán cruciales y cada equipo tendrá tareas m�
 
 Sin embargo, como el objetivo principal de este sprint es finalizar la infraestructura del proyecto, el equipo de ingeniería de datos tendrá un rol prioritario, y los demás equipos deberán brindar apoyo en caso de ser necesario.
 
-
 (CUANDO ESTE MEJOR EDITAR ESTA IMAGEN)
 
 ### 🏁 Sprint 3: Demo Final 🏁
@@ -39,7 +61,11 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 
 (CUANDO ESTE MEJOR EDITAR ESTA IMAGEN)
 
-## **Pipeline**
+## **Pipeline del proceso ETL**
+
+- CARGA INCREMENTAL
+
+.
 
 .
 
@@ -57,8 +83,13 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 
 .
 
+.
+
+## Índice de Archivos del Repositorio
+
+,
+
 ## Equipo involucrado
 
-.
-
-.
+- FOTO CANVA
+- LINKS A LINKEDIN
