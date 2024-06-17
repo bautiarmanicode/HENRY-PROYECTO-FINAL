@@ -28,11 +28,14 @@
 
 ## Plan de trabajo
 
-Por medio de la metodologia Gantt organizamos elequipo para repartir el trabajo de la siguiente manera:
+📊 Utilizando la metodología Gantt, organizamos nuestro equipo para distribuir el trabajo de forma efectiva.
 
-Primero creamos un diagrama de Gantt donde se indica el responsable de cada tarea mediante el color de la barra.
 
-Si una tarea está a cargo de más de una persona, el color de la barra cambia. La longitud y la posición de la barra indican el período de tiempo asignado para esa tarea.
+Primero, creamos un diagrama de Gantt, donde asignamos a cada miembro del equipo para identificar a los responsables de cada tarea .
+
+
+
+⏳ La longitud y posición de las barras en el diagrama muestran claramente el período de tiempo dedicado a cada tarea.
 
 ## Stack Tecnológico
 
