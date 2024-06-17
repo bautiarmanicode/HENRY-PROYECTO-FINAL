@@ -94,5 +94,6 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 
 ## Equipo involucrado
 
-- FOTO CANVA
+![1718648248848](image/README/1718648248848.png)
+
 - LINKS A LINKEDIN
