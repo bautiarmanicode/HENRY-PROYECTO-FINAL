@@ -1,46 +1,67 @@
-![1718524062057](image/README/1718524062057.png)
-
 ## Proyecto YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS
 
 ![1718594640848](image/README/1718594640848.png)
 
-.........
 
-.
-
-.
-
-.
-
-.
+Desc lorem loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
 
 ### INDICE DEL PROYECTO
 
-.
+- a
+- b
+- c
+- d
+- e
+- f
+- g
+- h
 
 ## Objetivo y alcance del proyecto:
 
-.
+- a
+- b
+- c
+- d
+- e
+- f
+- g
+- h
 
 ## Descripción del conjunto de datos
 
-.
+- 0 Diccionario_Datos.ipynb
+- b
+- c
+- d
+- e
+- f
+- g
+- h
 
 ## Plan de trabajo
 
 📊 Utilizando la metodología Gantt, organizamos nuestro equipo para distribuir el trabajo de forma efectiva.
 
-
-Primero, creamos un diagrama de Gantt, donde asignamos a cada miembro del equipo para identificar a los responsables de cada tarea .
-
-
+Primero, creamos un diagrama de Gantt, donde asignamos a cada miembro del equipo para identificar a los responsables de cada tarea.
 
 ⏳ La longitud y posición de las barras en el diagrama muestran claramente el período de tiempo dedicado a cada tarea.
+
+
+- FOTO GANT SPRINT 1
+- .
+- .
+- .
+- .
+
 
 ## Stack Tecnológico
 
 - FOTO GENERAL
 - Descripcion
+- .
+- .
+- .
+- .
 
 ## 🏁 Sprint 1: Puesta en marcha del proyecto 🏁
 
@@ -67,26 +88,36 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 ## **Pipeline del proceso ETL**
 
 - CARGA INCREMENTAL
-
-.
-
-.
-
-.
+- 0 
+- b
+- c
+- d
+- e
+- f
+- g
+- h
 
 ## Análisis de los datos
 
-.
-
-.
+- 0
+- b
+- c
+- d
+- e
+- f
+- g
+- h
 
 ## Tecnologias utilizadas
 
-.
-
-.
-
-.
+- 0
+- b
+- c
+- d
+- e
+- f
+- g
+- h
 
 ## Índice de Archivos del Repositorio
 
