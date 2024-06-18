@@ -2,7 +2,6 @@
 
 ![1718594640848](image/README/1718594640848.png)
 
-
 Desc lorem loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
 
 ### INDICE DEL PROYECTO
@@ -30,13 +29,8 @@ Desc lorem loremloremloremloremloremloremloremloremloremloremloremloremloremlore
 ## Descripción del conjunto de datos
 
 - 0 Diccionario_Datos.ipynb
-- b
-- c
-- d
-- e
-- f
-- g
-- h
+  - 🌟 El conjunto de datos en este análisis incluye las reseñas que los usuarios dejan en Google Maps y Yelp sobre los establecimientos que visitan.
+  - 📍 Además, contiene toda la metadata de estos lugares, como ubicación, horarios de apertura y cierre, y diversas características como infraestructura, servicios, ambiente, entre otros.
 
 ## Plan de trabajo
 
@@ -46,13 +40,11 @@ Primero, creamos un diagrama de Gantt, donde asignamos a cada miembro del equipo
 
 ⏳ La longitud y posición de las barras en el diagrama muestran claramente el período de tiempo dedicado a cada tarea.
 
-
 - FOTO GANT SPRINT 1
 - .
 - .
 - .
 - .
-
 
 ## Stack Tecnológico
 
@@ -88,7 +80,7 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 ## **Pipeline del proceso ETL**
 
 - CARGA INCREMENTAL
-- 0 
+- 0
 - b
 - c
 - d
