@@ -61,6 +61,7 @@ Como se puede observar, el primer sprint se enfocó principalmente en iniciar el
 
  (CUANDO ESTE MEJOR EDITAR ESTA IMAGEN)
 
+
 ### 🏁 Sprint 2: Etapa de analytics y ML 🏁
 
 En el segundo sprint, los roles serán cruciales y cada equipo tendrá tareas más específicas acorde a sus responsabilidades.
@@ -68,6 +69,7 @@ En el segundo sprint, los roles serán cruciales y cada equipo tendrá tareas m�
 Sin embargo, como el objetivo principal de este sprint es finalizar la infraestructura del proyecto, el equipo de ingeniería de datos tendrá un rol prioritario, y los demás equipos deberán brindar apoyo en caso de ser necesario.
 
 (CUANDO ESTE MEJOR EDITAR ESTA IMAGEN)
+
 
 ### 🏁 Sprint 3: Demo Final 🏁
 
@@ -113,7 +115,7 @@ Nos enfocaremos en la narrativa del proyecto y en lograr una presentación que i
 
 ## Índice de Archivos del Repositorio
 
-,
+.
 
 ## Equipo involucrado
 
