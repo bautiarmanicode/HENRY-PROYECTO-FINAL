@@ -126,7 +126,7 @@ En este último sprint, el objetivo es tener listos los modelos de machine learn
 
 ## Equipo Involucrado
 ![1718648248848](image/README/1718648248848.png)
-- Información sobre los miembros del equipo:
+### Información sobre los miembros del equipo:
   - Nombres y roles:
     - **Bautista Armani**
       - Rol: Data Engineer
