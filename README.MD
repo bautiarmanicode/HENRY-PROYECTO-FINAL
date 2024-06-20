@@ -51,7 +51,7 @@ El trabajo se ha organizado utilizando la metodología Gantt para asegurar una d
 
 - **Diagrama de Gantt**: Muestra la asignación de tareas a cada miembro del equipo y el período de tiempo dedicado a cada una.
 
-  ![alt text](image.png)
+  ![alt text](image/image.png)
 
 ## Stack Tecnológico
 
