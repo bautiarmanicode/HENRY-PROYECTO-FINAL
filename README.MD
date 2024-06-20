@@ -8,9 +8,9 @@
 3. [Plan de Trabajo](#plan-de-trabajo)
 4. [Stack Tecnológico](#stack-tecnológico)
 5. [Sprints](#sprints)
-    - [Sprint 1: Puesta en marcha del proyecto](#sprint-1-puesta-en-marcha-del-proyecto)
-    - [Sprint 2: Etapa de analytics y ML](#sprint-2-etapa-de-analytics-y-ml)
-    - [Sprint 3: Demo Final](#sprint-3-demo-final)
+    - [Sprint 1: Puesta en marcha del proyecto y Trabajo con Datos](#sprint-1-puesta-en-marcha-del-proyecto-y-trabajo-con-datos)
+    - [Sprint 2: Data Engineering](#sprint-2-data-engineering)
+    - [Sprint 3: Data Analytics + ML](#sprint-3-data-analytics--ml)
 6. [Pipeline del Proceso ETL](#pipeline-del-proceso-etl)
 7. [Análisis de los Datos](#análisis-de-los-datos)
 8. [Tecnologías Utilizadas](#tecnologías-utilizadas)
@@ -37,13 +37,13 @@ El objetivo de este proyecto es analizar y recomendar establecimientos basados e
 
 - **Diccionario_Datos.ipynb**: Contiene la descripción detallada de los datos utilizados.
 - **Conjunto de Datos**: Incluye reseñas de usuarios en Google Maps y Yelp sobre los establecimientos que visitan.
-- [**Dataset Google Maps**](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA): Incluye la metadata de sitios y reviews de estados de los usuarios.
-- [**Dataset Yelp**](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing): Conjunto de datos que contiene:
-  - business.pkl
-  - checkin.json
-  - review.json
-  - tip.json
-  - user.parquet
+  - [**Dataset Google Maps**](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA): Incluye la metadata de sitios y reviews de estados de los usuarios.
+  - [**Dataset Yelp**](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing): Conjunto de datos que contiene:
+    - business.pkl
+    - checkin.json
+    - review.json
+    - tip.json
+    - user.parquet
 
 ## Plan de Trabajo
 
@@ -51,7 +51,7 @@ El trabajo se ha organizado utilizando la metodología Gantt para asegurar una d
 
 - **Diagrama de Gantt**: Muestra la asignación de tareas a cada miembro del equipo y el período de tiempo dedicado a cada una.
 
-  ![alt text](image.png)
+  ![alt text](image/image.png)
 
 ## Stack Tecnológico
 
@@ -65,20 +65,16 @@ Nuestro proyecto utiliza una combinación de tecnologías y herramientas para ga
 - **Pandas**: Para la manipulación y análisis de datos.
 - **NumPy**: Para operaciones matemáticas y manejo de matrices.
 - **Scikit-learn**: Para el desarrollo y evaluación de modelos de machine learning.
-- **TensorFlow/Keras**: Para la creación y entrenamiento de modelos de deep learning.
-- **NLTK/Spacy**: Para procesamiento de lenguaje natural (NLP) y análisis de sentimiento.
-- **Matplotlib/Seaborn**: Para la visualización de datos.
-- **Django/Flask**: Para la creación de la API y el backend del proyecto.
 
-### Bases de Datos
+### Bases de Datos (Aún por definir)
 - **PostgreSQL**: Utilizado para almacenar y gestionar grandes volúmenes de datos estructurados.
 - **SQLite**: Empleado para el almacenamiento local durante el desarrollo y pruebas.
 
-### Herramientas de ETL
+### Herramientas de ETL (Aún por definir)
 - **Apache Airflow**: Para la orquestación de flujos de trabajo de datos.
 - **Talend**: Utilizado para la integración de datos y la ejecución de procesos ETL.
 
-### Plataformas de Despliegue
+### Plataformas de Despliegue 
 - **Google cloud services**: Utilizado para almacenamiento en la nube, cómputo y servicios de machine 
 - **Docker**: Para la creación de contenedores y la gestión de entornos de desarrollo consistentes.
 
@@ -94,23 +90,22 @@ Nuestro proyecto utiliza una combinación de tecnologías y herramientas para ga
 - **Yelp API**: Para la obtención de datos de reseñas y metadata de establecimientos.
 - **Discord**: Para la comunicación interna del equipo, reuniones y videoconferencias.
 
-### Infraestructura
-- **Terraform**: Para la gestión de la infraestructura como código.
-- **Kubernetes**: Para la orquestación de contenedores y gestión de aplicaciones escalables.
+### Visualización e Interacción
+- **Power BI**: Para la visualización e interacción del usuario con los KPI's encontrados.
 
 ## Sprints
 
 ### 🏁Sprint 1: Puesta en marcha del proyecto y Trabajo con Datos🏁
 
-En este sprint se enfoca en iniciar el proyecto y realizar un análisis preliminar de los datos y las tecnologías a emplear.
+En este sprint se enfoca en iniciar el proyecto y realizar un análisis preliminar de los datos y las tecnologías a emplear, con lo que teniendo un entendimiento de lo que se va a lograr encarar la solución.
 
 ### 🏁Sprint 2: Data Engineering🏁
 
-Este sprint se centra en finalizar la infraestructura del proyecto y en realizar análisis avanzados y desarrollos de machine learning.
+Este sprint se centra en finalizar la infraestructura y pipelines del proyecto, al realizar el proceso ETL apuntando a estructuras de tipo Data Warehouse, Datalake, aprovechando las herramientas de Big Data para su próxima representación en la utilización de los datos.
 
 ### 🏁Sprint 3: Data Analytics + ML🏁
 
-El objetivo es tener listos los modelos de machine learning y el dashboard, y preparar una presentación integral del proyecto.
+En este último sprint, el objetivo es tener listos los modelos de machine learning y el dashboard interactivo en donde el cliente pueda comprender, visualizar e interactuar con los datos provistos y KPI's para su consumo, y preparar una presentación integral del proyecto.
 
 ## Pipeline del Proceso ETL
 
@@ -125,13 +120,6 @@ El objetivo es tener listos los modelos de machine learning y el dashboard, y pr
   - Limpieza y preprocesamiento.
   - Análisis descriptivo y de tendencias.
 
-## Tecnologías Utilizadas
-
-- Detalle de las tecnologías y herramientas utilizadas:
-  - Lenguajes de programación.
-  - Librerías y frameworks.
-  - Plataformas de despliegue.
-
 ## Índice de Archivos del Repositorio
 
 - Lista de archivos y carpetas importantes del repositorio con una breve descripción de cada uno.
@@ -139,7 +127,21 @@ El objetivo es tener listos los modelos de machine learning y el dashboard, y pr
 ## Equipo Involucrado
 ![1718648248848](image/README/1718648248848.png)
 - Información sobre los miembros del equipo:
-  - Nombres y roles.
-  - Enlaces a perfiles de LinkedIn.
+  - Nombres y roles:
+    - **Bautista Armani**
+      - Rol: Data Engineer
+      - LinkedIn: 
+    - **Adrian Panduro**
+      - Rol: Data Engineer
+      - LinkedIn: 
+    - **Lorenzo Locava**
+      - Rol: Data Scientist
+      - LinkedIn: 
+    - **Juan Celada**
+      - Rol: Data Analyst
+      - LinkedIn: 
+    - **Jay Peralta**
+      - Rol: Data Analyst
+      - LinkedIn: 
 
 ---
