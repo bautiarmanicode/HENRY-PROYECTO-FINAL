@@ -143,5 +143,3 @@ En este último sprint, el objetivo es tener listos los modelos de machine learn
     - **Jay Peralta**
       - Rol: Data Analyst
       - LinkedIn: 
-
----
