@@ -41,7 +41,7 @@ Objetivo: Aumentar el porcentaje de reseñas positivas en un 5%  trimestral.
 2. KPI 2: Tasa de Crecimiento del Negocio (BGR - Business Growth Rate)
 Objetivo: Incrementar la tasa de crecimiento de reseñas en un 15% anual.
 
-3. KPI 3: KPI 3: Índice de Ubicación Óptima (OLI - Optimal Location Index)
+3. KPI 3: Índice de Ubicación Óptima (OLI - Optimal Location Index)
 Objetivo: Abrir 2 nuevas ubicaciones en el próximo año que tengan un crecimiento del número de reseñas positivas superior al 10% y menos de 5 competidores en un radio de 5 km.
 
 
@@ -155,7 +155,7 @@ En este último sprint, el objetivo es tener listos los modelos de machine learn
       - Rol: Data Engineer
       - LinkedIn: 
     - **Lorenzo Lacava**
-      - Rol: Data Scientist
+      - Rol: Machine Learning
       - LinkedIn: 
     - **Juan Celada**
       - Rol: Data Analyst
