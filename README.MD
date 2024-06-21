@@ -150,16 +150,16 @@ En este último sprint, el objetivo es tener listos los modelos de machine learn
   - Nombres y roles:
     - **Bautista Armani**
       - Rol: Data Engineer
-      - LinkedIn: 
+      - LinkedIn: [link](https://www.linkedin.com/in/bautiarmani/)
     - **Adrian Panduro**
       - Rol: Data Engineer
-      - LinkedIn: 
+      - LinkedIn: [link](https://www.linkedin.com/in/adrian-panduro-valdivia-7a1ab5290//)
     - **Lorenzo Lacava**
       - Rol: Machine Learning
-      - LinkedIn: 
+      - LinkedIn: [link](https://www.linkedin.com/in/lacavalorenzo/)
     - **Juan Celada**
       - Rol: Data Analyst
-      - LinkedIn: 
+      - LinkedIn: [link](https://www.linkedin.com/in/juan-cruz-celada/)
     - **Jay Peralta**
       - Rol: Data Analyst
-      - LinkedIn: 
+      - LinkedIn: [link](https://www.linkedin.com/in/jayperaltaborjas/)
