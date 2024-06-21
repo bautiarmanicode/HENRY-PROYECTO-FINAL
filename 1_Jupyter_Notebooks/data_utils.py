@@ -51,23 +51,3 @@ def data_type_check(df):
     print("Dimensiones: ", df.shape)
     print(df_info) 
     
-
-def duplicados_columna(df, columna):
-    """
-    Función que identifica y devuelve las filas duplicadas de un DataFrame según una columna específica.
-
-    Args:
-        df (pandas.DataFrame): DataFrame del cual se quieren identificar las filas duplicadas.
-        columna (str): Nombre de la columna por la cual se quieren identificar las filas duplicadas.
-
-    Returns:
-        pandas.DataFrame: DataFrame con las filas duplicadas ordenadas por la columna especificada.
-        Si no hay filas duplicadas, devuelve el string "No hay duplicados".
-    """
-    # Se filtran las filas duplicadas
-    duplicated_rows = df[df.duplicated(subset=columna, keep=False)]
-    if duplicated_rows.empty:
-        return "No hay duplicados"
-    # se ordenan las filas duplicadas para comparar entre sí
-    duplicated_rows_sorted = duplicated_rows.sort_values(by=columna)
-    return duplicated_rows_sorted
