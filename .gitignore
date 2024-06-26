@@ -1,4 +1,5 @@
 venv/
+myenv
 requirements.txt
 1 Jupyter Notebooks/sentiment_analysis_results.csv
 1 Jupyter Notebooks/sentiment_avg_by_category.csv
