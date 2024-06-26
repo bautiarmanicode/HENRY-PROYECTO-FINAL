@@ -1,2 +1,6 @@
 venv/
+myenv/
 requirements.txt
+1 Jupyter Notebooks/sentiment_analysis_results.csv
+1 Jupyter Notebooks/sentiment_avg_by_category.csv
+0_Dataset/Data_Limpia/sentiment_avg_by_category.csv
