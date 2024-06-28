@@ -21,13 +21,13 @@ yelp_dir = os.path.join(base_dir, 'Data_Limpia', 'Yelp')
 
 # Mapeo de archivos a tablas en MySQL
 file_to_table_map = {
-    'df_business.parquet': 'yelp_business',
-    'df_review.parquet': 'yelp_reviews',
-    'df_checkin.parquet': 'yelp_checkins',
-    'df_tip.parquet': 'yelp_tips',
-    'df_user_yelp.parquet': 'yelp_users',
-    'review-florida.parquet': 'google_reviews',
-    'metadata-sitios.parquet': 'google_metadata'
+    'df_business.parquet': 'Business',
+    'df_review.parquet': 'Review',
+    'df_checkin.parquet': 'Checkin',
+    'df_tip.parquet': 'Tip',
+    'df_user_yelp.parquet': 'User_yelp',
+    'review-florida.parquet': 'Review_Google',
+    'metadata-sitios.parquet': 'Metadata_Google'
 }
 
 # ETL para cada parte del proceso
@@ -82,6 +82,18 @@ def etl_business():
     drop_columns = ['postal_code', 'attributes', 'hours']
     df_restaurantes_FL = df_restaurantes_FL.drop(columns=drop_columns)
 
+    # Renombramos columnas para que coincidan con la base de datos
+    df_restaurantes_FL.rename(columns={
+        'business_id': 'business_id',
+        'name': 'name_Business',
+        'city': 'city',
+        'latitude': 'latitude',
+        'longitude': 'longitude',
+        'stars': 'stars',
+        'review_count': 'review_count',
+        'categories': 'categories'
+    }, inplace=True)
+
     # Definimos los IDs únicos de business para usarlos posteriormente en el DataFrame de review
     negocios_unicos = df_restaurantes_FL['business_id'].unique().tolist()
 
@@ -119,6 +131,15 @@ def etl_review(negocios_unicos):
     yelp_rev = pd.concat([yelp_rev, yelp_rev2], axis=0, ignore_index=True)
     yelp_rev["date"] = pd.to_datetime(yelp_rev["date"]).dt.date
 
+    yelp_rev.rename(columns={
+        'review_id': 'review_id',
+        'user_id': 'user_id',
+        'business_id': 'business_id',
+        'stars': 'stars',
+        'date': 'date_Review',
+        'text': 'text_Review'
+    }, inplace=True)
+
     yelp_rev.to_parquet(os.path.join(yelp_dir, 'df_review.parquet'))
 
 def etl_checkin(negocios_unicos):
@@ -136,8 +157,11 @@ def etl_checkin(negocios_unicos):
     # Modificamos los datos para que queden de la manera adecuada
     df_checkin["date"] = df_checkin["date"].str.strip()
     df_checkin["date"] = pd.to_datetime(df_checkin["date"])
-    df_checkin["ano"] = df_checkin["date"].dt.year
-    df_checkin["date"] = df_checkin["date"].dt.date
+
+    df_checkin.rename(columns={
+        'business_id': 'business_id',
+        'date': 'date_checkin'
+    }, inplace=True)
 
     df_checkin.to_parquet(os.path.join(yelp_dir, 'df_checkin.parquet'))
 
@@ -149,6 +173,13 @@ def etl_tip():
     duplicados = df_tip_FL[df_tip_FL.duplicated(keep=False)]
     df_tip_FL = df_tip_FL.drop(columns="compliment_count")
     df_tip_FL = duplicados.drop_duplicates()
+
+    df_tip_FL.rename(columns={
+        'text': 'text_tip',
+        'date': 'date_tip',
+        'business_id': 'business_id',
+        'user_id': 'user_id'
+    }, inplace=True)
 
     df_tip_FL.to_parquet(os.path.join(yelp_dir, 'df_tip.parquet'))
 
@@ -162,6 +193,14 @@ def etl_user_yelp():
                     'compliment_photos']
     df_user_FL = df_user_FL.drop(columns=columns_drop)
     df_user_FL.drop_duplicates(inplace=True)
+
+    df_user_FL.rename(columns={
+        'user_id': 'user_id',
+        'name': 'name_user',
+        'review_count': 'review_count',
+        'yelping_since': 'yelping_since',
+        'average_stars': 'average_stars'
+    }, inplace=True)
 
     df_user_FL.to_parquet(os.path.join(yelp_dir, 'df_user_yelp.parquet'))
 
@@ -218,6 +257,15 @@ def etl_google_reviews():
         # Creamos la columna "fecha" utilizando la función creada anteriormente
         df_reviews_Google["fecha"] = df_reviews_Google["time"].apply(convertir_timestamp)
 
+    df_reviews_Google.rename(columns={
+        'user_id': 'user_id',
+        'name': 'name_Review_Google',
+        'time': 'time_Review_Google',
+        'rating': 'rating',
+        'text': 'text_review_google',
+        'gmap_id': 'gmap_id'
+    }, inplace=True)
+
     df_reviews_Google.to_parquet(os.path.join(google_dir, 'review-florida.parquet'))
 
 def etl_google_metadata():
@@ -253,74 +301,38 @@ def etl_google_metadata():
     df_metadata.loc[df_metadata['category'] == 'Pizza restaurant', 'category'] = 'Pizza'
     df_metadata.loc[df_metadata['category'] == 'Mexican restaurant', 'category'] = 'Mexican'
 
+    df_metadata.rename(columns={
+        'gmap_id': 'gmap_id',
+        'name': 'name_Metadata_Google',
+        'latitude': 'latitude',
+        'longitude': 'longitude',
+        'category': 'category',
+        'avg_rating': 'avg_rating',
+        'num_of_reviews': 'num_of_reviews'
+    }, inplace=True)
+
     df_metadata.to_parquet(os.path.join(google_dir, 'metadata-sitios.parquet'))
 
 def extract_data(file_path):
     df = pd.read_parquet(file_path)
     return df
 
-def transform_data(df):
-    if 'categories' in df.columns:
-        df['categories'] = df['categories'].fillna('Unknown')
-    if 'text' in df.columns:
-        df['text'] = df['text'].fillna('')
-    if 'pics' in df.columns:
-        df['pics'] = df['pics'].apply(lambda x: [] if pd.isna(x) else x)
-    if 'resp' in df.columns:
-        df['resp'] = df['resp'].apply(lambda x: {} if pd.isna(x) else x)
-    if 'address' in df.columns:
-        df['address'] = df['address'].fillna('Unknown')
-    if 'description' in df.columns:
-        df['description'] = df['description'].fillna('No description')
-    if 'category' in df.columns:
-        df['category'] = df['category'].apply(lambda x: [] if pd.isna(x) else x)
-    if 'price' in df.columns:
-        df['price'] = df['price'].fillna('Unknown')
-    if 'hours' in df.columns:
-        df['hours'] = df['hours'].apply(lambda x: {} if pd.isna(x) else x)
-    if 'MISC' in df.columns:
-        df['MISC'] = df['MISC'].apply(lambda x: {} if pd.isna(x) else x)
-    if 'state' in df.columns:
-        df['state'] = df['state'].fillna('Unknown')
-    if 'relative_results' in df.columns:
-        df['relative_results'] = df['relative_results'].apply(lambda x: [] if pd.isna(x) else x)
-    return df
-
 def validate_data(df, table_name):
     validations = {
-        'google_metadata': ['name', 'address', 'gmap_id'],
-        'google_reviews': ['user_id', 'gmap_id', 'rating'],
-        'yelp_business': ['business_id', 'name', 'address'],
-        'yelp_reviews': ['review_id', 'user_id', 'business_id'],
-        'yelp_users': ['user_id', 'name'],
-        'yelp_checkins': ['business_id'],
-        'yelp_tips': ['text', 'business_id', 'user_id']
+        'Business': ['business_id', 'name_Business', 'address', 'latitude', 'longitude'],
+        'User_yelp': ['user_id', 'name_user'],
+        'Review': ['review_id', 'user_id', 'business_id'],
+        'Checkin': ['business_id'],
+        'Tip': ['business_id', 'user_id'],
+        'Metadata_Google': ['gmap_id', 'name_Metadata_Google'],
+        'Review_Google': ['user_id', 'gmap_id']
     }
-    
+
     critical_columns = validations.get(table_name, [])
     for col in critical_columns:
         if col in df.columns and df[col].isnull().any():
             print(f"Error: La columna {col} contiene valores nulos en la tabla {table_name}.")
             return False
-    
-    if 'rating' in df.columns and ((df['rating'] < 1).any() or (df['rating'] > 5).any()):
-        print(f"Error: La columna 'rating' contiene valores fuera del rango esperado en la tabla {table_name}.")
-        return False
-
-    key_columns = {
-        'google_metadata': ['gmap_id'],
-        'google_reviews': ['user_id', 'gmap_id'],
-        'yelp_business': ['business_id'],
-        'yelp_reviews': ['review_id'],
-        'yelp_users': ['user_id'],
-        'yelp_checkins': ['business_id'],
-        'yelp_tips': ['business_id', 'user_id']
-    }
-    
-    keys = key_columns.get(table_name, [])
-    if keys and df.duplicated(subset=keys).any():
-        print(f"Error: Hay duplicados en las columnas clave {keys} en la tabla {table_name}.")
-        return False
 
     return True
 
@@ -329,9 +341,8 @@ def load_data(df, table_name):
 
 def process_file(file_path, table_name):
     df = extract_data(file_path)
-    df_cleaned = transform_data(df)
-    if validate_data(df_cleaned, table_name):
-        load_data(df_cleaned, table_name)
+    if validate_data(df, table_name):
+        load_data(df, table_name)
         print(f"Datos de {file_path} cargados exitosamente en la tabla {table_name}")
     else:
         print(f"Validación fallida para {file_path}. Datos no cargados.")
