@@ -1,3 +1,4 @@
+
 CREATE DATABASE yelp_google;
 
 USE yelp_google;
