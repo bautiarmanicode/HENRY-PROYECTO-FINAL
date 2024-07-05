@@ -59,9 +59,31 @@ Para ver mas informacion, ingresar al [diccionario de datos](https://github.com/
 
 ## Key Performance Indicators (KPis)
 
-1. KPI 1:
-2. KPI 2:
-3. KPI 3:
+**KPI 1:**
+Promedio Anual de Calificación de las Reseñas
+Descripción: Medir el promedio de las calificaciones otorgadas por los clientes cada año
+Objetivo: Incrementar el promedio anual de calificaciones en un 10% durante el próximo año.
+Periodo de Tiempo: Anual, revisado al final de cada año.
+Meta: Si el promedio actual de calificaciones es 4.0, la meta sería alcanzar un promedio de 4.4 en el proximo año.
+
+**KPI 2:**
+Número de Reseñas Recibidas por Mes
+Descripción: Contar el número de reseñas recibidas cada mes.
+Objetivo: Aumentar el número de reseñas mensuales en un 15% durante el próximo trimestre.
+Periodo de Tiempo: Mensual, revisado al final de cada mes.
+Meta: Si actualmente se reciben 100 reseñas por mes, la meta sería alcanzar 115 reseñas mensuales al final del trimestre.
+
+**KPI 3:**
+
+Comparativa de Popularidad con Competencia (Taco Bell)
+
+Descripción: Medir y comparar la popularidad de Pizza Hut frente a Taco Bell en Florida utilizando el número de reseñas y la calificación promedio. 
+
+Objetivo: Superar a Taco Bell en número de reseñas y calificación promedio en un 15% durante el próximo año. 
+
+Periodo de Tiempo: Anual, revisado al final de cada año. 
+
+Meta: Número de reseñas: Si Taco Bell recibe 1,000 reseñas anuales, Pizza Hut debe recibir al menos 1,150 reseñas. Calificación promedio: Si la calificación promedio de Taco Bell es 4.0, Pizza Hut debe alcanzar al menos 4.6.
 
 ## Plan de Trabajo
 
