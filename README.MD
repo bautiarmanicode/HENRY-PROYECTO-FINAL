@@ -20,6 +20,8 @@
 
 ## Objetivo y Alcance del Proyecto
 
+![1720196076920](image/README/1720196076920.png)
+
 El objetivo de este proyecto es analizar y recomendar establecimientos basados en las reseñas y datos obtenidos de Yelp y Google Maps. Este análisis incluye:
 
 1. Análisis de Sentimientos :
