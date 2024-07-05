@@ -77,11 +77,11 @@ Meta: Si actualmente se reciben 100 reseñas por mes, la meta sería alcanzar 11
 
 Comparativa de Popularidad con Competencia (Taco Bell)
 
-Descripción: Medir y comparar la popularidad de Pizza Hut frente a Taco Bell en Florida utilizando el número de reseñas y la calificación promedio. 
+Descripción: Medir y comparar la popularidad de Pizza Hut frente a Taco Bell en Florida utilizando el número de reseñas y la calificación promedio.
 
-Objetivo: Superar a Taco Bell en número de reseñas y calificación promedio en un 15% durante el próximo año. 
+Objetivo: Superar a Taco Bell en número de reseñas y calificación promedio en un 15% durante el próximo año.
 
-Periodo de Tiempo: Anual, revisado al final de cada año. 
+Periodo de Tiempo: Anual, revisado al final de cada año.
 
 Meta: Número de reseñas: Si Taco Bell recibe 1,000 reseñas anuales, Pizza Hut debe recibir al menos 1,150 reseñas. Calificación promedio: Si la calificación promedio de Taco Bell es 4.0, Pizza Hut debe alcanzar al menos 4.6.
 
@@ -91,7 +91,23 @@ El trabajo se ha organizado utilizando la metodología Gantt para asegurar una d
 
 - **Diagrama de Gantt**: Muestra la asignación de tareas a cada miembro del equipo y el período de tiempo dedicado a cada una.
 
-  tack Tecnológico
+### 🏁Sprint 1: Puesta en marcha del proyecto y Trabajo con Datos🏁
+
+En este sprint se enfoca en iniciar el proyecto y realizar un análisis preliminar de los datos y las tecnologías a emplear, con lo que teniendo un entendimiento de lo que se va a lograr encarar la solución.
+
+### 🏁Sprint 2: Data Engineering🏁
+
+Este sprint se centra en finalizar la infraestructura y pipelines del proyecto, al realizar el proceso ETL apuntando a estructuras de tipo Data Warehouse, Datalake, aprovechando las herramientas de Big Data para su próxima representación en la utilización de los datos.
+
+![1720199390691](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/El%20Bauto/Desktop/HENRY%20PROYECTO%20FINAL/image/README/1720199390691.png)
+
+### 🏁Sprint 3: Data Analytics + ML🏁
+
+En este último sprint, el objetivo es tener listos los modelos de machine learning y el dashboard interactivo en donde el cliente pueda comprender, visualizar e interactuar con los datos provistos y KPI's para su consumo, y preparar una presentación integral del proyecto.
+
+![1720199444411](image/README/1720199444411.png)
+
+# Stack Tecnologico
 
 Nuestro proyecto utiliza una combinación de tecnologías y herramientas para garantizar un análisis de datos eficiente y un desarrollo de modelos de machine learning robusto. A continuación, se detalla el stack tecnológico empleado:
 
@@ -106,20 +122,17 @@ Nuestro proyecto utiliza una combinación de tecnologías y herramientas para ga
 - **NumPy**: Para operaciones matemáticas y manejo de matrices.
 - **Scikit-learn**: Para el desarrollo y evaluación de modelos de machine learning.
 
-### Bases de Datos (Aún por definir)
+### Bases de Datos BigQuery
 
-- **PostgreSQL**: Utilizado para almacenar y gestionar grandes volúmenes de datos estructurados.
-- **SQLite**: Empleado para el almacenamiento local durante el desarrollo y pruebas.
+- **BigQuery:**
 
-### Herramientas de ETL (Aún por definir)
+### Herramientas de ETL
 
-- **Apache Airflow**: Para la orquestación de flujos de trabajo de datos.
-- **Talend**: Utilizado para la integración de datos y la ejecución de procesos ETL.
+- Google Cloud Funcitions:
 
 ### Plataformas de Despliegue
 
 - **Google cloud services**: Utilizado para almacenamiento en la nube, cómputo y servicios de machine
-- **Docker**: Para la creación de contenedores y la gestión de entornos de desarrollo consistentes.
 
 ### Herramientas de Colaboración y Control de Versiones
 
@@ -130,41 +143,16 @@ Nuestro proyecto utiliza una combinación de tecnologías y herramientas para ga
 
 ### Otros Servicios y Herramientas
 
-- **Drive**: Para la importación de los datos y donde estuvieron los datos alojados inicialmente.
-- **Google Maps API**: Para la obtención de datos de localización y reseñas.
-- **Yelp API**: Para la obtención de datos de reseñas y metadata de establecimientos.
+- **Drive**: Para la importación de los datos y donde estuvieron los datos alojados inicialmente
 - **Discord**: Para la comunicación interna del equipo, reuniones y videoconferencias.
 
 ### Visualización e Interacción
 
 - **Power BI**: Para la visualización e interacción del usuario con los KPI's encontrados.
 
-## Sprints
-
-### 🏁Sprint 1: Puesta en marcha del proyecto y Trabajo con Datos🏁
-
-En este sprint se enfoca en iniciar el proyecto y realizar un análisis preliminar de los datos y las tecnologías a emplear, con lo que teniendo un entendimiento de lo que se va a lograr encarar la solución.
-
-### 🏁Sprint 2: Data Engineering🏁
-
-Este sprint se centra en finalizar la infraestructura y pipelines del proyecto, al realizar el proceso ETL apuntando a estructuras de tipo Data Warehouse, Datalake, aprovechando las herramientas de Big Data para su próxima representación en la utilización de los datos.
-
-### 🏁Sprint 3: Data Analytics + ML🏁
-
-En este último sprint, el objetivo es tener listos los modelos de machine learning y el dashboard interactivo en donde el cliente pueda comprender, visualizar e interactuar con los datos provistos y KPI's para su consumo, y preparar una presentación integral del proyecto.
-
 ## Pipeline del Proceso ETL
 
-- **Carga Incremental**:
-  - Descripción de los pasos del pipeline ETL.
-  - Herramientas y técnicas utilizadas para la carga incremental de datos.
-
-## Análisis de los Datos
-
-- Descripción del análisis realizado:
-  - Exploración inicial de los datos.
-  - Limpieza y preprocesamiento.
-  - Análisis descriptivo y de tendencias.
+![1720199482652](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/El%20Bauto/Desktop/HENRY%20PROYECTO%20FINAL/image/README/1720199482652.png)
 
 ## Índice de Archivos del Repositorio
 
@@ -177,7 +165,6 @@ En este último sprint, el objetivo es tener listos los modelos de machine learn
 ## Equipo Involucrado
 
 ![1720195634242](image/README/1720195634242.png)
-
 
 ### Información sobre los miembros del equipo:
 
