@@ -127,7 +127,7 @@ def compare_competitors(df, city, local_name):
     st.pyplot(plt)
 
 # Cargar el DataFrame
-df_combinado = pd.read_parquet('df_combinado.parquet')
+df_combinado = pd.read_parquet('3_MachineLearning/df_combinado.parquet')
 
 # Widgets interactivos de Streamlit
 st.title('Mapa Interactivo de Restaurantes')
