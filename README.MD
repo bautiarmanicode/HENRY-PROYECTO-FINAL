@@ -156,11 +156,18 @@ Nuestro proyecto utiliza una combinación de tecnologías y herramientas para ga
 
 ## Índice de Archivos del Repositorio
 
-- Lista de archivos y carpetas importantes del repositorio con una breve descripción de cada uno.
-- .
-- .
-- .
-- .
+**0_Dataset**
+
+* Carpeta que contiene los archivos de datos originales antes de cualquier procesamiento y las muestras extraidas por Data Engineer.
+
+**1_Jupyter_Notebooks**
+
+* Aquí se almacenan los Jupyter Notebooks utilizados para la limpieza, análisis preliminar de los datos, y machine Learning.
+
+**3_MachineLearning**
+
+* Contiene los notebooks de Jupyter desarrollados para el análisis exploratorio de datos (EDA) y modelos de Machine Learning. Se incluyen detalles de las técnicas utilizadas y los resultados obtenidos.
+* **0 Diccionario_Datos.ipynb** : Notebook de Jupyter con el diccionario de datos.
 
 ## Equipo Involucrado
 
